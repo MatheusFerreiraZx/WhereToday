@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0BE2D413-39A9-4E3A-93E7-95A93B3219AC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E51EDD2A-4804-42C9-93E1-7F57FAF364AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dish+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "fromCustomer(firstName:lastName:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7482333B-9ED3-4679-9030-2A0D23D6E128"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dish+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "fromCustomer(firstName:lastName:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7482333B-9ED3-4679-9030-2A0D23D6E128 - 2f1c7520fd4888ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LittleLemonRestaurant.Dish.fromCustomer(firstName: Swift.String, lastName: Swift.String, _: __C.NSManagedObjectContext) -&gt; Swift.Optional&lt;Swift.Array&lt;LittleLemonRestaurant.Dish&gt;&gt;"
+                  moduleName = "LittleLemonRestaurant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mars/Desktop/CONTEUDO/CURSO%207%20-%20Data/XCODE/LittleLemonRestaurant/Dish+CoreDataProperties.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "7482333B-9ED3-4679-9030-2A0D23D6E128 - 2f1c7520fd4888ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LittleLemonRestaurant.Dish.fromCustomer(firstName: Swift.String, lastName: Swift.String, _: __C.NSManagedObjectContext) -&gt; Swift.Optional&lt;Swift.Array&lt;LittleLemonRestaurant.Dish&gt;&gt;"
+                  moduleName = "LittleLemonRestaurant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mars/Desktop/CONTEUDO/CURSO%207%20-%20Data/XCODE/LittleLemonRestaurant/Dish+CoreDataProperties.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388D6E73-7BA0-4661-BDC5-5B84D9032D55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dish+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "fromCustomer(firstName:lastName:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "388D6E73-7BA0-4661-BDC5-5B84D9032D55 - 2f1c7520fd4888ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LittleLemonRestaurant.Dish.fromCustomer(firstName: Swift.String, lastName: Swift.String, _: __C.NSManagedObjectContext) -&gt; Swift.Optional&lt;Swift.Array&lt;LittleLemonRestaurant.Dish&gt;&gt;"
+                  moduleName = "LittleLemonRestaurant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mars/Desktop/CONTEUDO/CURSO%207%20-%20Data/XCODE/LittleLemonRestaurant/Dish+CoreDataProperties.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "388D6E73-7BA0-4661-BDC5-5B84D9032D55 - 2f1c7520fd4888ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LittleLemonRestaurant.Dish.fromCustomer(firstName: Swift.String, lastName: Swift.String, _: __C.NSManagedObjectContext) -&gt; Swift.Optional&lt;Swift.Array&lt;LittleLemonRestaurant.Dish&gt;&gt;"
+                  moduleName = "LittleLemonRestaurant"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mars/Desktop/CONTEUDO/CURSO%207%20-%20Data/XCODE/LittleLemonRestaurant/Dish+CoreDataProperties.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0BEDC74-B73A-4677-893F-1B4CC461BF99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonRestaurant/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C735315D-AC0E-4BEA-9D96-32D65C2A84F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CORE DATA/Dish+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "save(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5EB2CE4-E909-4FDA-8915-FC83E25A9DCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LittleLemonRestaurant/OUR DISHES/DishesModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "reload(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

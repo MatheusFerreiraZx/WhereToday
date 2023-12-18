@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Customer" representedClassName="Customer" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fistName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <relationship name="fromLocation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="toCustomer" inverseEntity="Location"/>
+        <relationship name="toDessert" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dessert" inverseName="fromCustomer" inverseEntity="Dessert"/>
+        <relationship name="toDish" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dish" inverseName="fromCustomer" inverseEntity="Dish"/>
+    </entity>
+    <entity name="Dessert" representedClassName="Dessert" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="String"/>
+        <relationship name="fromCustomer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Customer" inverseName="toDessert" inverseEntity="Customer"/>
+        <relationship name="fromLocation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="toDessert" inverseEntity="Location"/>
+    </entity>
+    <entity name="Dish" representedClassName="Dish" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="String"/>
+        <relationship name="fromCustomer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Customer" inverseName="toDish" inverseEntity="Customer"/>
+        <relationship name="fromLocation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="toDish" inverseEntity="Location"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="neighborhood" optional="YES" attributeType="String"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String"/>
+        <relationship name="toCustomer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Customer" inverseName="fromLocation" inverseEntity="Customer"/>
+        <relationship name="toDessert" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dessert" inverseName="fromLocation" inverseEntity="Dessert"/>
+        <relationship name="toDish" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dish" inverseName="fromLocation" inverseEntity="Dish"/>
+    </entity>
+</model>
