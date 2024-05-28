@@ -1,5 +1,2 @@
-# little-lemon-restaurant-app
-Effortlessly reserve your spot at Little Lemon with our reservations app. Manage bookings, explore our menu, and enjoy a seamless dining experience—all from the palm of your hand.
-
-## Preview
-![Demonstration](https://user-images.githubusercontent.com/93353925/227747468-3e923704-873f-4a06-8bbb-8fad77580034.gif)
+# WhereToday?
+Here in Recife, we have the famous phrase "Não que eu vá, mas, hoje é aonde? that means "Not that I'm going, but where is it today?", this phrase is used to know what the movement is in the city today. Think about that I created an app that lists some places that you should go.
